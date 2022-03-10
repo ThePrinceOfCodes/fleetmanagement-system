@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/truck1.jpg)no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: rgb(241, 237, 237);
+    color: rgb(84, 76, 192);
+    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(84, 76, 192);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(17, 10, 114);
+    font-size: 16px;
+}
+
+.loginbox button[type="submit"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    background: rgb(17, 10, 114);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox button[type="submit"]:hover {
+    cursor: pointer;
+    background: white;
+    color: rgb(17, 10, 114);
+}
+
+.loginbox a {
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.loginbox a:hover {
+    color: #ffc107;
+}
